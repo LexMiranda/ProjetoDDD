@@ -21,6 +21,6 @@ c:\users\lexl\documents\visual studio 2013\Projects\ProjetoModeloDDD\ProjetoMode
 c:\users\lexl\documents\visual studio 2013\Projects\ProjetoModeloDDD\ProjetoModeloDDD.MVC\bin\System.Web.WebPages.Razor.xml
 c:\users\lexl\documents\visual studio 2013\Projects\ProjetoModeloDDD\ProjetoModeloDDD.MVC\bin\Antlr3.Runtime.pdb
 c:\users\lexl\documents\visual studio 2013\Projects\ProjetoModeloDDD\ProjetoModeloDDD.MVC\bin\Newtonsoft.Json.xml
-c:\users\lexl\documents\visual studio 2013\Projects\ProjetoModeloDDD\ProjetoModeloDDD.MVC\obj\Debug\ProjetoModeloDDD.MVC.csprojResolveAssemblyReference.cache
 c:\users\lexl\documents\visual studio 2013\Projects\ProjetoModeloDDD\ProjetoModeloDDD.MVC\obj\Debug\ProjetoModeloDDD.MVC.dll
 c:\users\lexl\documents\visual studio 2013\Projects\ProjetoModeloDDD\ProjetoModeloDDD.MVC\obj\Debug\ProjetoModeloDDD.MVC.pdb
+C:\Users\LexL\documents\visual studio 2013\Projects\ProjetoModeloDDD\ProjetoModeloDDD.MVC\obj\Debug\ProjetoModeloDDD.MVC.csprojResolveAssemblyReference.cache
