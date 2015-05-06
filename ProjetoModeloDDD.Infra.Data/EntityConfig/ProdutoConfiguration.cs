@@ -1,6 +1,7 @@
 ﻿
-using ProjetoModeloDDD.Domain.Entities;
+
 using System.Data.Entity.ModelConfiguration;
+using ProjetoModeloDDD.Domain.Entities;
 
 namespace ProjetoModeloDDD.Infra.Data.EntityConfig
 {
@@ -14,9 +15,13 @@ namespace ProjetoModeloDDD.Infra.Data.EntityConfig
                 .HasMaxLength(250);
             Property(p => p.Valor)
                 .IsRequired();
+
             HasRequired(p => p.Cliente)
                 .WithMany()
                 .HasForeignKey(p => p.ClienteId);
+
+
         }
+
     }
 }

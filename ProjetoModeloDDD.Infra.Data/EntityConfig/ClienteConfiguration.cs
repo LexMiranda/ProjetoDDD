@@ -11,13 +11,17 @@ namespace ProjetoModeloDDD.Infra.Data.EntityConfig
         {
             HasKey(c => c.ClienteId);
             Property(c => c.Nome)
-                .IsRequired().HasMaxLength(150);
+                .IsRequired()
+                .HasMaxLength(150);
+
             Property(c => c.Sobrenome)
                 .IsRequired()
                 .HasMaxLength(150);
 
             Property(c => c.Email)
                 .IsRequired();
+
+
 
 
         }

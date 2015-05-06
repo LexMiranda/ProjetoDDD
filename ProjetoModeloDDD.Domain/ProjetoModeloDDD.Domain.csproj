@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{802345F0-45D1-429D-85CA-2AC25B882E1F}</ProjectGuid>
+    <ProjectGuid>{0861AB17-03B0-405E-9697-50755905D054}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ProjetoModeloDDD.Domain</RootNamespace>
@@ -32,15 +32,19 @@
   <ItemGroup>
     <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\Produto.cs" />
+    <Compile Include="Interface\Repositories\IClienteRepository.cs" />
+    <Compile Include="Interface\Repositories\IProdutoRepository.cs" />
+    <Compile Include="Interface\Repositories\IRepositoryBase.cs" />
+    <Compile Include="Interface\Services\IClienteService.cs" />
+    <Compile Include="Interface\Services\IProdutoService.cs" />
+    <Compile Include="Interface\Services\IServiceBase.cs" />
+    <Compile Include="services\ServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
