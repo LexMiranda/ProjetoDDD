@@ -4,6 +4,7 @@ using System.Web.Mvc;
 using AutoMapper;
 using ProjetoModeloDDD.Domain.Entities;
 using ProjetoModeloDDD.Domain.Interface;
+using ProjetoModeloDDD.Domain.Interfaces.Repositories;
 using ProjetoModeloDDD.Infra.Data.repositories;
 using ProjetoModeloDDD.MVC.ViewModels;
 
