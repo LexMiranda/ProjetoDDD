@@ -4,8 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using ProjetoModeloDDD.Domain.Interface;
-using ProjetoModeloDDD.Domain.Interface.Repositories;
+using ProjetoModeloDDD.Domain.Interfaces;
+using ProjetoModeloDDD.Domain.Interfaces.Repositories;
 using ProjetoModeloDDD.Infra.Data.Context;
 
 namespace ProjetoModeloDDD.Infra.Data.repositories

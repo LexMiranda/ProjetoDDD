@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using ProjetoModeloDDD.Domain.Interface.Repositories;
-using ProjetoModeloDDD.Domain.Interface.Services;
+using ProjetoModeloDDD.Domain.Interfaces.Repositories;
+using ProjetoModeloDDD.Domain.Interfaces.Services;
 
-namespace ProjetoModeloDDD.Domain.services
+
+namespace ProjetoModeloDDD.Domain.Services
 {
     public class ServiceBase<TEntity> : IDisposable, IServiceBase<TEntity> where TEntity :class
     {
@@ -41,14 +42,11 @@ namespace ProjetoModeloDDD.Domain.services
 
         }
 
-        void IServiceBase<TEntity>.Dispose()
+       
+
+        public void Dispose()
         {
             _repository.Dispose();
-        }
-
-        void IDisposable.Dispose()
-        {
-            throw new NotImplementedException();
         }
     }
 }
