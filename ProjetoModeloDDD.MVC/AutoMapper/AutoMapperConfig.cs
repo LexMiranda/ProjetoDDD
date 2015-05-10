@@ -1,6 +1,5 @@
 ﻿
 
-using System;
 using AutoMapper;
 
 namespace ProjetoModeloDDD.MVC.AutoMapper

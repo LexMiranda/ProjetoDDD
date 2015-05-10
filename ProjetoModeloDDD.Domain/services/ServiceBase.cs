@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using ProjetoModeloDDD.Domain.Interfaces.Repositories;
 using ProjetoModeloDDD.Domain.Interfaces.Services;
 
-
 namespace ProjetoModeloDDD.Domain.Services
 {
     public class ServiceBase<TEntity> : IDisposable, IServiceBase<TEntity> where TEntity :class
